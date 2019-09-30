@@ -26,7 +26,7 @@ import Foundation
 
 internal extension UIColor {
 
-    static let incomingGray = {
+    static var incomingGray: UIColor {
         if #available(iOS 13, *) {
             UIColor.systemGray5
         } else {
@@ -34,9 +34,7 @@ internal extension UIColor {
         }
     }
 
-
-
-    static let outgoingGreen = {
+    static var outgoingGreen: UIColor {
         if #available(iOS 13, *) {
             UIColor.systemGreen
         } else {
@@ -44,7 +42,7 @@ internal extension UIColor {
         }
     }
 
-    static let inputBarGray = {
+    static var inputBarGray: UIColor {
         if #available(iOS 13, *) {
             UIColor.systemGray2
         } else {
@@ -52,7 +50,7 @@ internal extension UIColor {
         }
     }
 
-    static let playButtonLightGray = {
+    static var playButtonLightGray: UIColor {
         if #available(iOS 13, *) {
             UIColor.systemGray6
         } else {
@@ -60,7 +58,7 @@ internal extension UIColor {
         }
     }
 
-    static let sendButtonBlue = {
+    static var sendButtonBlue: UIColor {
         if #available(iOS 13, *) {
             UIColor.systemBlue
         } else {
