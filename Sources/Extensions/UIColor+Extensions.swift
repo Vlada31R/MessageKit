@@ -28,41 +28,41 @@ internal extension UIColor {
 
     static var incomingGray: UIColor {
         if #available(iOS 13, *) {
-            UIColor.systemGray5
+            return UIColor.systemGray5
         } else {
-            UIColor(red: 230/255, green: 230/255, blue: 235/255, alpha: 1.0)
+            return UIColor(red: 230/255, green: 230/255, blue: 235/255, alpha: 1.0)
         }
     }
 
     static var outgoingGreen: UIColor {
         if #available(iOS 13, *) {
-            UIColor.systemGreen
+            return UIColor.systemGreen
         } else {
-            UIColor(red: 69/255, green: 214/255, blue: 93/255, alpha: 1.0)
+            return UIColor(red: 69/255, green: 214/255, blue: 93/255, alpha: 1.0)
         }
     }
 
     static var inputBarGray: UIColor {
         if #available(iOS 13, *) {
-            UIColor.systemGray2
+            return UIColor.systemGray2
         } else {
-            UIColor(red: 247/255, green: 247/255, blue: 247/255, alpha: 1.0)
+            return UIColor(red: 247/255, green: 247/255, blue: 247/255, alpha: 1.0)
         }
     }
 
     static var playButtonLightGray: UIColor {
         if #available(iOS 13, *) {
-            UIColor.systemGray6
+            return UIColor.systemGray6
         } else {
-            UIColor(red: 230/255, green: 230/255, blue: 230/255, alpha: 1.0)
+            return UIColor(red: 230/255, green: 230/255, blue: 230/255, alpha: 1.0)
         }
     }
 
     static var sendButtonBlue: UIColor {
         if #available(iOS 13, *) {
-            UIColor.systemBlue
+            return UIColor.systemBlue
         } else {
-            UIColor(red: 15/255, green: 135/255, blue: 255/255, alpha: 1.0)
+            return UIColor(red: 15/255, green: 135/255, blue: 255/255, alpha: 1.0)
         }
     }
 }
