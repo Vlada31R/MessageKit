@@ -24,7 +24,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
 
     func updateTitleView(title: String, subtitle: String?, baseColor: UIColor = .white) {
 
