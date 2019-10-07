@@ -55,6 +55,7 @@
 		50FF345B2237FE9C0004DCD7 /* ContactMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF345A2237FE9C0004DCD7 /* ContactMessageSizeCalculator.swift */; };
 		797AD26423422BDB00E63579 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AD26323422BDB00E63579 /* UIColor.swift */; };
 		79661AA922E8AFEB00EF0087 /* MessageStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79661AA822E8AFEB00EF0087 /* MessageStatus.swift */; };
+		792F6647234B7D9500B088C8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792F6646234B7D9500B088C8 /* UIViewController+Extensions.swift */; };
 		88916B2D1CF0DF2F00469F91 /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88916B221CF0DF2F00469F91 /* MessageKit.framework */; };
 		8962AC8A1F87AB7D0030B058 /* MessagesCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962AC831F87AB230030B058 /* MessagesCollectionViewTests.swift */; };
 		8962AC8C1F87AB7D0030B058 /* AvatarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962AC851F87AB230030B058 /* AvatarViewTests.swift */; };
@@ -170,6 +171,7 @@
 		50FF345A2237FE9C0004DCD7 /* ContactMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactMessageSizeCalculator.swift; sourceTree = "<group>"; };
 		797AD26323422BDB00E63579 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		79661AA822E8AFEB00EF0087 /* MessageStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStatus.swift; sourceTree = "<group>"; };
+		792F6646234B7D9500B088C8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		88916B221CF0DF2F00469F91 /* MessageKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88916B2C1CF0DF2F00469F91 /* MessageKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8962AC741F87AB230030B058 /* MessageKitDateFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageKitDateFormatterTests.swift; sourceTree = "<group>"; };
@@ -411,6 +413,7 @@
 				B7A03F661F8669EB006AEF79 /* UIView+Extensions.swift */,
 				1FCA6D2F201C1CC900BC3480 /* UIEdgeInsets+Extensions.swift */,
 				797AD26323422BDB00E63579 /* UIColor.swift */,
+				792F6646234B7D9500B088C8 /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -643,6 +646,7 @@
 				382C794221705D2000F4FAF5 /* HorizontalEdgeInsets.swift in Sources */,
 				79661AA922E8AFEB00EF0087 /* MessageStatus.swift in Sources */,
 				B7A03F3C1F866946006AEF79 /* LocationMessageCell.swift in Sources */,
+				792F6647234B7D9500B088C8 /* UIViewController+Extensions.swift in Sources */,
 				1FF377AA20087D78004FD648 /* MessagesViewController+Menu.swift in Sources */,
 				B7A03F5B1F8669CA006AEF79 /* MessageType.swift in Sources */,
 				B7A03F601F8669CA006AEF79 /* MessagesDisplayDelegate.swift in Sources */,
