@@ -26,7 +26,7 @@ import UIKit
 
 // swiftlint:disable explicit_acl
 
-internal extension UIView {
+extension UIView {
     
     func fillSuperview() {
         guard let superview = self.superview else {
